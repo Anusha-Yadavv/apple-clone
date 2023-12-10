@@ -28,8 +28,10 @@ header {
     margin: 20px;
 }
 
-nav a:hover {
+#website-navbar a:hover {
     transform: scale(1.1) translate(-3%, -3%);
+
+
 
 }
 
@@ -813,6 +815,12 @@ footer h2 {
     margin-bottom: 10px;
 }
 
+.mobile-options li:hover {
+    background-color: #555555;
+    color: white;
+    border-radius: 8px;
+}
+
 @media screen and (max-width:768px) {
     main {
         margin-top: 12px;
@@ -940,8 +948,11 @@ footer h2 {
     }
 
     .apple-store-description p {
-        font-size: 20px;
-        flex-wrap: wrap;
+        white-space: nowrap;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+
+
     }
 
     .my-card-two-description p {
@@ -1003,6 +1014,7 @@ footer h2 {
     .experience-card-two {
         width: 320px;
         height: 450px;
+        background-size: 330px 480px;
 
 
     }
@@ -1067,6 +1079,7 @@ footer h2 {
     .made-by-section {
         font-size: 10px;
     }
+
 }
 
 @media screen and (min-width:768px) {

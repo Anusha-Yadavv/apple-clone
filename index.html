@@ -32,18 +32,18 @@
                     </path>
                 </svg>
             </a>
-            <a class="nav-link active" aria-current="page" href="#">Store</a>
-            <a class="nav-link" href="">Mac</a>
-            <a class="nav-link" href="">iPad</a>
-            <a class="nav-link" href="">iPhone</a>
-            <a class="nav-link" href="">AirPods</a>
+            <a class="nav-link active" aria-current="page" href="#storeSection">Store</a>
+            <a class="nav-link" href="#store-product-section-one">Mac</a>
+            <a class="nav-link" href="#storeSection">iPad</a>
+            <a class="nav-link" href="#product-red-section">iPhone</a>
+            <a class="nav-link" href="#storeSection">AirPods</a>
             <a class="nav-link" href="">Watch</a>
 
 
             <a class="nav-link" href="">TV & Home</a>
             <a class="nav-link" href="">Entertainment</a>
-            <a class="nav-link" href="">Accessories</a>
-            <a class="nav-link" href="">Support</a>
+            <a class="nav-link" href="#apple-store-difference-section">Accessories</a>
+            <a class="nav-link" href="#help-is-here-section">Support</a>
             <a> <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="15px" height="44px" viewBox="0 0 15 44">
                     <path
                         d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z">
@@ -92,18 +92,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav" id="mobile-options">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Mac</a>
+                            <a class="nav-link active" aria-current="page" href="#store-product-section-one">Mac</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">iPad</a>
+                            <a class="nav-link" href="#storeSection">iPad</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">iPhone</a>
+                            <a class="nav-link" href="#product-red-section">iPhone</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">AirPods</a>
+                            <a class="nav-link" href="#storeSection">AirPods</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Watch</a>
@@ -115,11 +115,11 @@
                             <a class="nav-link" href="#">Entertainment</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Accessories</a>
+                            <a class="nav-link" href="#apple-store-difference-section">Accessories</a>
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Support</a>
+                            <a class="nav-link" href="#help-is-here-section">Support</a>
                         </li>
 
 
@@ -140,7 +140,7 @@
 
     <main>
 
-        <section class="store-section">
+        <section class="store-section" id="storeSection">
             <div class="shop-header-section">
                 <p class="shop-subheader"><span class="shop-header">Store.</span> The best way to buy the products you
                     love.</p>
@@ -417,12 +417,11 @@
 
 
                         </div>
-                        <div class="card-scrim">
-                            <div>Get a quick overview from Pritesh on the Apple Support App.</div><button type="button"
-                                data-relatedlink="c6a215f0-89f8-11ee-a861-1f25a96effb3_link" class="rf-ccard-playcta"
-                                aria-labelledby="c6a215f0-89f8-11ee-a861-1f25a96effb3_rf-ccard-scrim-content-desc c6a215f0-89f8-11ee-a861-1f25a96effb3_rf-ccard-playcta"><i
-                                    class="icon icon-playsolid"></i><span class="visuallyhidden"
-                                    id="c6a215f0-89f8-11ee-a861-1f25a96effb3_rf-ccard-playcta">Play</span></button>
+                        <div class="card-scrim d-flex">
+                            <!-- <div>Get a quick overview from Pritesh on the Apple Support App.</div> -->
+                            <p class="price">Get a quick overview from Pritesh on the Apple Support App.</p>
+                            <button class="btn btn-primary buy-button">Play</button>
+                            <!-- <button type="button">Play</span></button> -->
                         </div>
                     </div>
 
@@ -458,11 +457,14 @@
                         </svg>
                     </div>
                     <div class="apple-store-description">
-                        <p><span class="highlighted-text">Exchange your smartphone,</span> get
+                        <p class="text"><span class="highlighted-text">Exchange your smartphone,</span> get
                             ₹16000.00
                             –
                             ₹64800.00
-                            in credit towards a new one.*</p>
+                            in credit towards a new one.*
+                            ₹16000.00
+
+                        </p>
                     </div>
                 </div>
 
@@ -718,10 +720,7 @@
                     <div class="d-flex justify-content-between my-card-two-description product-details">
                         <p class="price"> <span class="highlight">iPhone 14 Silicone Case with MagSafe -
                                 (PRODUCT)RED</span>
-                            From ₹853.00/mo. Per Monthwith EMIFootnote◊◊
-                            or
-                            MRP ₹4900.00
-                            (Incl. of all taxes)
+
                         </p>
                     </div>
                 </div>
@@ -753,11 +752,7 @@
                     </ul>
 
                     <div class="d-flex justify-content-between my-card-two-description">
-                        <p class="price"> <span class="highlight">iPhone SE Silicone Case - (PRODUCT)RED</span>
-                            From ₹609.00/mo. Per Monthwith EMIFootnote◊◊
-                            or
-                            MRP ₹3500.00
-                            (Incl. of all taxes)</p>
+                        <p class="price"> <span class="highlight">iPhone SE Silicone Case - (PRODUCT)RED</span></p>
 
                     </div>
                 </div>
