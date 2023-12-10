@@ -884,6 +884,7 @@ footer h2 {
     .product-one {
         width: 320px;
         height: 450px;
+        background-position: center;
     }
 
     .product-two {
