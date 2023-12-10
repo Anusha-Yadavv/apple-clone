@@ -915,6 +915,12 @@ footer h2 {
     .apple-specialist-card {
         width: 320px;
         height: 450px;
+        /* margin: auto; */
+        /* background-size: 400px 600px; */
+        /* padding-right: 40%; */
+        background-position: center;
+
+
 
     }
 
@@ -933,6 +939,8 @@ footer h2 {
     .personal-session-card {
         width: 320px;
         height: 450px;
+        background-position: center;
+
 
 
     }
@@ -979,6 +987,10 @@ footer h2 {
         padding-right: 10px;
 
 
+    }
+
+    .my-card-two-img-one {
+        height: 180px;
     }
 
     .product-details p {
